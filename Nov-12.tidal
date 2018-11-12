@@ -1,0 +1,13 @@
+--
+
+d1 $ every 4 $ rev (sound "bd arpy cp [sn sn]")
+
+d2 $ slow 2 $ degrade $ palindrome $ sound "arpy:1*2 arpy:4*2 arpy:3*2 arpy:2*2"
+  # accelerate "-1"
+
+d3 $ every 3 (slow 4) $ sound "<numbers:1 numbers:2 numbers:3 numbers:4>"
+
+d4 $ every 2 (rev) $ n "[3 .. 0]" # sound "jvbass"
+
+
+--
