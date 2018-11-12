@@ -1,0 +1,7 @@
+d1 $ sound "808bd 808oh*2 808sd"
+
+-- d2 $ every 4 rev $ sound "~ jvbass*5 ~" # n "5 3 4 1"
+
+d3 $ every 2 (|+| speed "1") $ sound "arpy*4" |=| speed "1"
+
+hush
