@@ -1,6 +1,6 @@
 --
 
-d1 $ every 4 $ rev (sound "bd arpy cp [sn sn]")
+d1 $ every 4 (rev) (sound "bd arpy cp [sn sn]")
 
 d2 $ slow 2 $ degrade $ palindrome $ sound "arpy:1*2 arpy:4*2 arpy:3*2 arpy:2*2"
   # accelerate "-1"
